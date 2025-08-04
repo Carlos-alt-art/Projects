@@ -1,8 +1,6 @@
-#Proyectos a ver
+# Proyectos a ignorar
 
-\Projects\Projects\Ejercicio (1).zip
-\Projects\Projects\Ejercicio (2).zip
-\Projects\Projects\Ejercicio.zip
-\Projects\Projects\Ejercicio1.zip
-\Projects\Projects\Ejercicio2.zip
-\Projects\Projects\Ejercicio_3.zip
+/Projects/Ejercicio*.zip
+
+# Ignorar este mismo archivo
+.gitignore
