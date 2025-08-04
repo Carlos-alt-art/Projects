@@ -1,6 +1,4 @@
-# Proyectos a ignorar
+# Ignorar todo el contenido dentro de Projects
+Projects/Projects/**
 
-/Projects/Ejercicio*.zip
 
-# Ignorar este mismo archivo
-.gitignore
