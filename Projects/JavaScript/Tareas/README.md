@@ -41,3 +41,16 @@ Se incluyó un sistema de retroalimentaciión. Esto mejora la interacción y ayu
 # Conclusiones
 
 La aplicación de gestión de tareas cumple con los objetivos de ser simple, funcional y fácil de usar. La retroalimentación visual y la validación de entrada son aspectos clave para mejorar la experiencia del usuario. Además, la aplicación está diseñada para ser fácilmente ampliable en el futuro, permitiendo agregar más funcionalidades si es necesario.
+
+# Como usar la App
+
+1. Descargar o clona la carpeta App
+```bash
+Projects/JavaScript/Tareas/App
+```
+o
+```bash
+git clonehttps://github.com/Carlos-alt-art/Projects/tree/1c760a19c109eb4ec790a0a57d14dabd8413dba4/Projects/JavaScript/Tareas/App
+```
+
+2. Abre el archivo index.html con un navegador
