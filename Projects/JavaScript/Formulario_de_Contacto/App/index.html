@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <!-- Enlace a la hoja de estilos externa -->
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+
+  <body>
+    <div class="div1">
+      <div id="textoError"></div>
+
+      <h1>Contacto</h1>
+
+      <div class="linea"></div>
+
+      <form action="#" method="post">
+        <label for="nombre">Nombre:</label>
+        <br />
+        <input
+          type="text"
+          id="nombre"
+          name="nombre"
+          placeholder="Escribe tu nombre"
+          required
+        />
+        <br /><br />
+
+        <label for="correo">Correo electrónico:</label>
+        <br />
+        <input
+          type="email"
+          id="correo"
+          name="correo"
+          placeholder="ejemplo@correo.com"
+          required
+        />
+        <br /><br />
+
+        <label for="contra">Contraseña:</label>
+        <br />
+        <input
+          type="password"
+          id="contra"
+          name="contra"
+          placeholder="Escribe tu contraseña"
+          required
+        />
+        <br /><br />
+
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
