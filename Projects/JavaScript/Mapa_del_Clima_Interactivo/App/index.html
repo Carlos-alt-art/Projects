@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima</title>
+    <!-- Enlace a la hoja de estilos externa -->
+    <link rel="stylesheet" href="styles/styles.css" />
+</head>
+<body>
+    <header>
+  <h1>🌍 Mapa del Clima Interactivo</h1>
+</header>
+<hr>
+<main>
+  <!-- Buscador -->
+  <section id="buscador">
+    <input type="text" id="ciudadInput" placeholder="Buscar ciudad...">
+    <button id="buscarBtn">🔍 Buscar</button>
+  </section>
+
+
+  <!-- Resultados -->
+  <section id="resultados">
+    <h2>📊 Resultados del Clima</h2>
+
+    <p id="nombreCiudad"></p>
+    <p id="temperatura"></p>
+    <p id="clima"></p>
+    <p id="humedad"></p>
+    <p id="horaLocal"></p>
+    <button id="guardarBtn">⭐ Guardar en favoritos</button>
+  </section>
+
+  <!-- Mapa Canvas -->
+  <section id="mapa">
+    <h2>🗺️ Mapa</h2>
+    <canvas id="mapaCanvas" width="600" height="400"></canvas>
+  </section>
+
+  <!-- Favoritos -->
+  <section id="favoritos">
+    <h2>⭐ Ciudades Favoritas</h2>
+    <ul id="listaFavoritos"></ul>
+  </section>
+</main>
+<hr>
+<footer>
+  <p>&copy; 2025 - Proyecto con API + Canvas + LocalStorage</p>
+</footer>
+
+<!-- Enlace al script JavaScript -->
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>
